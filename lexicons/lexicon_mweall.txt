@@ -1,0 +1,1856 @@
+1855
+have surgery	V.LVC.full	v.social
+ingrown toenail	N	n.BODY
+Blue Cross / Blue Shield	N	n.GROUP
+doctor 's office	N	n.ARTIFACT
+Blue cross	N	n.GROUP
+BC / BS	N	n.GROUP
+turn over	V.VPC.full	v.social
+collection agency	N	n.GROUP
+even though	SCONJ	null
+come through	V.VPC.semi	v.stative
+not only	ADV	null
+to boot	DISC	null
+have issue	V.LVC.full	v.cognition
+go above and beyond	V.VID	v.social
+for example	DISC	null
+go out of way	V.VID	v.social
+take care of	V.IAV	v.social
+along with	P	p.Ancillary
+out of	P	p.Source
+fry egg	N	n.FOOD
+come with	V.IAV	v.stative
+enchilada sauce	N	n.FOOD
+Hormel 's chili	N	n.FOOD
+american cheese	N	n.FOOD
+chili relleno	N	n.FOOD
+Elite Flyers	N	n.GROUP
+customer service	N	n.ACT
+FITNESS UNLIMITED	N	n.GROUP
+second home	N	n.COGNITION
+a lot	DET	null
+work out	V.VPC.full	v.body
+nothing but	PP	p.PartPortion
+let know	V.VID	v.communication
+give the run around	V.VID	v.communication
+call back	V.VPC.semi	v.communication
+put down	V.VPC.full	v.possession
+over the phone	PP	p.Instrument
+as well	DISC	null
+blood pressure	N	n.BODY
+mental health	N	n.COGNITION
+I - 24	N	n.LOCATION
+have blowout	V.LVC.full	v.change
+hit the ground	V.VID	v.change
+track down	V.VPC.semi	v.cognition
+BMW 330i	N	n.ARTIFACT
+come out	V.VPC.semi	v.motion
+blow out	V.VPC.full	v.change
+outside of	P	p.Locus
+on way	PP	p.Manner
+take time	V.LVC.full	v.change
+away from	P	p.Locus
+without a doubt	DISC	null
+to be clear	DISC	null
+return favor	V.VID	v.social
+Alan Grissom	N	n.PERSON
+by far	PP	p.Extent
+Dupont Circle	N	n.LOCATION
+have experience	V.LVC.full	v.stative
+Dr. Ghassemlou	N	n.PERSON
+witness protection program	N	n.COGNITION
+in that	DISC	null
+do research	V.LVC.full	v.social
+or else	ADV	null
+Auto Towing	N	n.GROUP
+on time	PP	p.Manner
+a few	DET	null
+mac and cheese	N	n.FOOD
+end up	V.VPC.full	v.stative
+have to	AUX	null
+tea spoon	N	n.ARTIFACT
+bar - b - que	N	n.FOOD
+check back	V.VPC.semi	v.social
+bus boy	N	n.PERSON
+tortilla soup	N	n.FOOD
+use to	AUX	null
+you guy	N	n.GROUP
+never mind	DISC	null
+thank you	DISC	null
+all over	P	p.Locus
+Fort Lee	N	n.LOCATION
+instead of	P	p.ComparisonRef
+one more thing	N	n.QUANTITY
+credit card	N	n.POSSESSION
+garage door	N	n.ARTIFACT
+oh - so	ADV	null
+sort of	ADV	null
+take off	V.VPC.full	v.social
+make repair	V.LVC.full	v.change
+spread the word	V.VID	v.communication
+Roger M.	N	n.PERSON
+high end	ADJ	null
+keep sake	N	n.ARTIFACT
+a bit	DET	null
+after all	DISC	null
+take a bite	V.LVC.full	v.consumption
+leave number	V.VID	v.communication
+take down	V.VPC.full	v.communication
+from Hell	PP	p.Manner
+price quote	N	n.POSSESSION
+make appointment	V.LVC.cause	v.social
+show up	V.VPC.full	v.social
+be suppose to	AUX	null
+walk out	V.VPC.semi	v.motion
+go to	AUX	null
+jaw drop	V.VID	v.emotion
+as to	P	p.Topic
+will and grace	N	n.GROUP
+of all time	PP	p.Extent
+the other way around	ADJ	null
+mezza luna	N	n.FOOD
+pizza roll	N	n.FOOD
+ahead of time	PP	p.Time
+pick up	V.VPC.full	v.possession
+cut down on	V.IAV	v.change
+a little	DET	null
+Clarkson University	N	n.LOCATION
+in time of need	PP	p.Circumstance
+pass away	V.VID	v.body
+take the time	V.VID	v.social
+each and every	DET	null
+make time	V.VID	v.social
+go through	V.IAV	v.stative
+a short time	N	n.TIME
+in town	PP	p.Locus
+make sure	V.VID	v.cognition
+stop by	V.IAV	v.motion
+Jack 's	N	n.GROUP
+trust I	V.VID	v.cognition
+fire alarm	N	n.ARTIFACT
+strobe light	N	n.ARTIFACT
+sound off	V.VPC.full	v.stative
+front desk	N	n.LOCATION
+get answer	V.LVC.full	v.communication
+pack up	V.VPC.semi	v.change
+go off	V.VPC.full	v.stative
+as if	DISC	null
+make up	V.VPC.semi	v.cognition
+big deal	N	n.COGNITION
+be to	V.IAV	v.motion
+Stainless Steel	N	n.GROUP
+look to	V.IAV	v.cognition
+hoa salon	N	n.GROUP
+answer phone	V.VID	v.communication
+price range	N	n.POSSESSION
+waste time	V.VID	v.social
+cut short	V.VID	v.change
+get the hell	V.VID	v.motion
+crap hole	N	n.ARTIFACT
+2 star	N	n.ATTRIBUTE
+short of that	DISC	null
+Range Rover Sport	N	n.ARTIFACT
+Tintman Nationwide tints Ltd	N	n.GROUP
+do a job	V.LVC.full	v.social
+bite the dust	V.VID	v.change
+a treat	N	n.COGNITION
+out of business	PP	p.Characteristic
+contact information	N	n.COMMUNICATION
+a shame	N	n.COGNITION
+any longer	ADV	null
+you have get Maids	N	n.GROUP
+for sure	DISC	null
+cleaning lady	N	n.PERSON
+Home Delivery Service	N	n.GROUP
+Hickory Furniture Mart	N	n.GROUP
+no one	PRON	null
+showroom floor	N	n.LOCATION
+chest of drawer	N	n.ARTIFACT
+National Home Furnishings	N	n.GROUP
+let alone	V.VID	v.stative
+set up	V.VPC.full	v.creation
+in limbo	PP	p.Characteristic
+and company	N	n.GROUP
+out standing	ADJ	null
+thanks again	DISC	null
+Saucey 's	N	n.GROUP
+Boothbay Harbor	N	n.LOCATION
+same old	ADJ	null
+at all	PP	p.Extent
+grocery store	N	n.LOCATION
+stock up	V.VPC.semi	v.stative
+Bright Star Tours and Travels	N	n.GROUP
+Best and Affordable Tour Operators and Tours Agents	N	n.GROUP
+Student Tour India Package	N	n.GROUP
+adventure tour	N	n.EVENT
+India heritage tour	N	n.EVENT
+Bright Star Tours	N	n.GROUP
+at best	PP	p.Extent
+do a favor	V.LVC.full	v.social
+cross check	V.VID	v.cognition
+hair style	N	n.BODY
+stick with	V.IAV	v.social
+bbq chicken pizza	N	n.FOOD
+Mom / Pop	N	n.COGNITION
+hustle and bustle	N	n.STATE
+Wisconsin Ave	N	n.LOCATION
+in between	P	p.Locus
+Subway Sandwiches	N	n.GROUP
+Modell 's	N	n.GROUP
+pop in	V.IAV	v.motion
+pumpkin spice latte	N	n.FOOD
+wrapping paper	N	n.ARTIFACT
+sit down	V.VPC.semi	v.stative
+birthday card	N	n.COMMUNICATION
+one star	N	n.COMMUNICATION
+get it	V.VID	v.cognition
+banana split	N	n.FOOD
+come on	DISC	null
+to eat	INF.P	p.Purpose
+Dr. Aster	N	n.PERSON
+to the point	PP	p.Characteristic
+make trip	V.LVC.full	v.motion
+sense of humour	N	n.ATTRIBUTE
+deal with	V.IAV	v.social
+cut deal	V.LVC.full	v.possession
+come in	V.VPC.full	v.motion
+take forever	V.VID	v.stative
+I might add	DISC	null
+god forbid	DISC	null
+make mistake	V.LVC.full	v.cognition
+pay cash	V.VID	v.possession
+so call	ADJ	null
+jimmy rig	V.VID	v.change
+auto shop	N	n.GROUP
+on hold	PP	p.Characteristic
+from standpoint	PP	p.Locus
+scrap metal	N	n.ARTIFACT
+suck it up	V.VID	v.emotion
+crab rangoon	N	n.FOOD
+shrimp satay	N	n.FOOD
+live through	V.VID	v.stative
+with the way it be	PP	p.Circumstance
+Comfort zone	N	n.GROUP
+on the cheap	PP	p.Cost
+Comfort Zone	N	n.GROUP
+purple hull pea	N	n.FOOD
+blacken catfish	N	n.FOOD
+like it	V.VID	v.emotion
+club sandwich	N	n.FOOD
+change mind	V.VID	v.cognition
+in person	PP	p.Circumstance
+talk down to	V.IAV	v.communication
+supreme being	N	n.PERSON
+get away with	V.IAV	v.cognition
+be rude	V.VID	v.stative
+mind blow	N	n.COGNITION
+do business	V.LVC.full	v.social
+Sun Toyota	N	n.GROUP
+thank god	DISC	null
+property management	N	n.GROUP
+rent out	V.VPC.semi	v.possession
+get older	V.VID	v.change
+Anna Maria Jose Mudo	N	n.PERSON
+have the pleasure	N	n.FEELING
+in love	PP	p.Characteristic
+for - ever	ADV	null
+love show	V.LVC.full	v.emotion
+love always	DISC	null
+Santa Fe	N	n.LOCATION
+El Paradero	N	n.LOCATION
+well feed	V.VID	v.stative
+in every way	PP	p.Extent
+in large part	PP	p.Extent
+year old	N	n.PERSON
+make friend	V.VID	v.social
+Ms. Sue	N	n.PERSON
+give quote	V.LVC.full	v.communication
+come and go	V.VID	v.motion
+in my opinion	DISC	null
+due to	P	p.Explanation
+go so far as to	V.VID	v.change
+hold up	V.VPC.full	v.stative
+all of	P	p.Approximator
+come by	V.VPC.semi	v.motion
+you get what you pay for	DISC	null
+follow - up	N	n.ACT
+one - star	N	n.ATTRIBUTE
+in opinion	DISC	null
+have a problem	V.LVC.full	v.stative
+go wrong	V.VID	v.change
+because of	P	p.Explanation
+3 star	N	n.ATTRIBUTE
+Award Dance Centre	N	n.GROUP
+Holderness Road	N	n.LOCATION
+Chamberlain Road Hull	N	n.LOCATION
+have plan	V.LVC.full	v.cognition
+dance floor	N	n.ARTIFACT
+Kingston upon Hull	N	n.GROUP
+line dancing	N	n.ACT
+a Ward Dance Centre	N	n.GROUP
+as well as	CCONJ	null
+5 star	N	n.COMMUNICATION
+across the board	DISC	null
+Wildwood , NJ	N	n.LOCATION
+car accident	N	n.EVENT
+a nervous wreck	N	n.PERSON
+behind the wheel	PP	p.Locus
+family emergency	N	n.EVENT
+Professional Driving School	N	n.GROUP
+give instruction	V.LVC.full	v.communication
+get call	V.LVC.full	v.communication
+come down	V.VPC.semi	v.motion
+as soon as	P	p.Time
+once again	ADV	null
+give it shot	V.VID	v.social
+believe in	V.IAV	v.emotion
+the rest be history	DISC	null
+on own	PP	p.Manner
+true to word	ADJ	null
+wonderful wild Wildernest inn	N	n.COMMUNICATION
+Wildernest inn	N	n.GROUP
+ten star	N	n.COMMUNICATION
+Spring Mountain	N	n.NATURALOBJECT
+in fact	DISC	null
+up and down	ADJ	null
+in front of	P	p.Goal
+be out of this world	V.VID	v.stative
+spot - on	ADJ	null
+room temperature	N	n.NATURALOBJECT
+by any stretch of the imagination	PP	p.Extent
+middle - eastern	ADJ	null
+the fact that	DISC	null
+be a no brainer	V.VID	v.stative
+Console Pros	N	n.GROUP
+pass up	V.VPC.full	v.social
+straight edge	N	n.ARTIFACT
+have cut	V.LVC.full	v.social
+spay and neuter	N	n.ACT
+have doubt	V.LVC.full	v.cognition
+first of all	DISC	null
+get infection	V.LVC.full	v.body
+do surgery	V.LVC.full	v.body
+or so	ADV	null
+full price	N	n.POSSESSION
+not to mention	DISC	null
+leave to be desire	V.VID	v.cognition
+front staff	N	n.GROUP
+phone call	N	n.COMMUNICATION
+turn into	V.IAV	v.change
+have a clue	V.VID	v.cognition
+go on	V.VPC.full	v.stative
+worth it	ADJ	null
+out of date	PP	p.Characteristic
+a couple	DET	null
+deli sandwich	N	n.FOOD
+Max 's	N	n.GROUP
+have problem	V.LVC.full	v.cognition
+wait staff	N	n.GROUP
+birthday party	N	n.EVENT
+Fraiser 's	N	n.GROUP
+come away	V.VPC.full	v.cognition
+life coach	N	n.PERSON
+in the midst of	P	p.Circumstance
+panic attack	N	n.STATE
+professional help	N	n.ACT
+little do know	DISC	null
+couple with	V.IAV	v.stative
+see the sun	V.VID	v.social
+Wenatchee hill	N	n.LOCATION
+Columbia River	N	n.NATURALOBJECT
+Frank mcclelland	N	n.PERSON
+waiting staff	N	n.PERSON
+all in one	ADJ	null
+year to come	N	n.TIME
+to be honest	DISC	null
+apart from	P	p.PartPortion
+take into account	V.VID	v.cognition
+start to finish	N	n.PROCESS
+London Aquarium	N	n.GROUP
+pass the time	V.VID	v.stative
+shell out	V.VPC.full	v.possession
+the best part of	N	n.QUANTITY
+go for it	V.VID	v.social
+criminal attorney	N	n.PERSON
+Peter Barrett	N	n.PERSON
+criminal defense attorney	N	n.PERSON
+work every angle	V.VID	v.social
+leave no stone unturned	V.VID	v.social
+Burger King	N	n.GROUP
+kid meal	N	n.FOOD
+french fry	N	n.FOOD
+Willow Lounge	N	n.GROUP
+keep in mind	V.VID	v.cognition
+a / c	N	n.ARTIFACT
+check out	V.VPC.full	v.social
+the Willow Lounge	N	n.GROUP
+aside from	P	p.PartPortion
+foie gras	N	n.FOOD
+sticker price	N	n.POSSESSION
+Logan Circle	N	n.LOCATION
+sweet potato	N	n.FOOD
+bottom line	N	n.COGNITION
+out - of - place	PP	p.Characteristic
+flat - screen tv	N	n.ARTIFACT
+be there	V.VID	v.social
+last minute	N	n.EVENT
+give a try	V.LVC.full	v.social
+worth every penny	ADJ	null
+be in hand	V.VID	v.social
+Wunderbar pet sitting	N	n.GROUP
+take in	V.VPC.full	v.motion
+2001 Nissan Frontier	N	n.ARTIFACT
+Eagle Transmission	N	n.GROUP
+drop off	V.VPC.full	v.motion
+service fee	N	n.POSSESSION
+base on	V.IAV	v.stative
+sign up	V.VPC.full	v.communication
+locker room	N	n.LOCATION
+back to	DISC	null
+medical school	N	n.COGNITION
+shut up	V.VPC.full	v.communication
+FITNESS 500	N	n.GROUP
+great ear	N	n.COGNITION
+direction take	N	n.COGNITION
+have to offer	V.VID	v.stative
+how to	ADJ	null
+Garment District	N	n.GROUP
+by the way	DISC	null
+on the spot	PP	p.Circumstance
+Springfield , IL	N	n.LOCATION
+Kansas City	N	n.LOCATION
+sister - in - law	N	n.PERSON
+Rachel McInnis	N	n.PERSON
+make a mistake	V.LVC.full	v.cognition
+get business	V.LVC.full	v.possession
+Bloom Legal	N	n.GROUP
+Seth Bloom	N	n.PERSON
+one - on - one	ADJ	null
+experience have	V.VPC.full	v.social
+line up	N	n.COGNITION
+make order	V.LVC.full	v.communication
+rescue puppy	N	n.ANIMAL
+around the clock	PP	p.Time
+check up	N	n.EVENT
+no matter	ADV	null
+in this day	P	??
+make cash	V.VID	v.possession
+give chance	V.LVC.cause	v.social
+and yet	CCONJ	null
+make the drive	V.LVC.full	v.motion
+look forward to	V.IAV	v.cognition
+Allen Tire	N	n.GROUP
+Jim Smith	N	n.PERSON
+make recommendation	V.LVC.full	v.communication
+ride on rail	V.VID	v.motion
+know job	V.VID	v.cognition
+Prestige Hino	N	n.GROUP
+medium duty	ADJ	null
+well do	DISC	null
+gold award	N	n.RELATION
+mark up	N	n.POSSESSION
+in addition	DISC	null
+hot topic	N	n.GROUP
+would like	V.VID	v.cognition
+for free	PP	p.Cost
+test - drive	N	n.EVENT
+back to back	N	n.TIME
+test drive	N	n.EVENT
+Stevens Creek	N	n.LOCATION
+First Glass Window	N	n.GROUP
+window pane	N	n.ARTIFACT
+five star	N	n.ATTRIBUTE
+Lake Forest Tots	N	n.GROUP
+good job	DISC	null
+South Bend	N	n.LOCATION
+New Year 's Eve	N	n.EVENT
+holiday dinner	N	n.EVENT
+Jazz Club	N	n.GROUP
+jazz club	N	n.GROUP
+despite the fact	DISC	null
+less than	P	p.Approximator
+Trio 's	N	n.GROUP
+air conditioning	N	n.ARTIFACT
+go out	V.VPC.full	v.change
+go in	V.VPC.semi	v.motion
+bring back	V.VPC.semi	v.motion
+none of the above	PRON	null
+at fault	PP	p.Characteristic
+bench test	N	n.ACT
+Sun Devil Auto	N	n.GROUP
+of course	DISC	null
+hand - down	ADV	null
+mind - blowing	ADJ	null
+high - end	ADJ	null
+top notch	ADJ	null
+hand down	ADV	null
+send over	V.VPC.semi	v.motion
+a number	DET	null
+do work	V.LVC.full	v.social
+oil change	N	n.ACT
+'07 Ford Fusion	N	n.ARTIFACT
+run rough	V.VID	v.stative
+turn out	V.VPC.full	v.stative
+tow truck	N	n.ARTIFACT
+just about	PP	p.Approximator
+on the side	PP	p.Manner
+month old	N	n.PERSON
+have it	V.VID	v.emotion
+Texas Roadhouse	N	n.GROUP
+go out of business	V.VID	v.social
+feel like it	V.VID	v.emotion
+credit card minimum	N	n.POSSESSION
+Kitchen Aid	N	n.GROUP
+Stephanie Fairchild	N	n.PERSON
+Prudential Steamboat Realty	N	n.GROUP
+Yampa Valley	N	n.LOCATION
+Deb Watson	N	n.PERSON
+help out	V.VPC.semi	v.social
+a +++	N	n.COMMUNICATION
+gear box	N	n.ARTIFACT
+a +++++	N	n.COMMUNICATION
+all about	P	p.Characteristic
+give description	V.LVC.full	v.communication
+wine flight	N	n.FOOD
+sign in	V.VPC.full	v.communication
+in the mean time	PP	p.Time
+take it	V.VID	v.cognition
+at least	PP	p.Approximator
+time and again	N	n.COGNITION
+get do	V.VID	v.body
+yellow lab	N	n.ANIMAL
+Dumb Friends League	N	n.GROUP
+care receive	V.LVC.full	v.social
+on the lookout	PP	p.Characteristic
+pure breed	N	n.ATTRIBUTE
+Little Farmer	N	n.GROUP
+go out the door	V.VID	v.stative
+parking lot	N	n.LOCATION
+in line	PP	p.Characteristic
+amusement park	N	n.GROUP
+take order	V.LVC.full	v.communication
+wait on	V.IAV	v.social
+get result	V.LVC.full	v.stative
+pardon my French	DISC	null
+get through	V.VPC.full	v.cognition
+put up with	V.VID	v.social
+all together	ADV	null
+rage Taco & rage Burrito	N	n.GROUP
+Taco Mac	N	n.GROUP
+like say	DISC	null
+Qwest DSL	N	n.GROUP
+move out	V.VPC.semi	v.motion
+be up	V.VID	v.stative
+mess up	V.VPC.full	v.social
+get act together	V.VID	v.change
+dining room	N	n.ARTIFACT
+on a basis	PP	p.Frequency
+be in for a treat	V.VID	v.stative
+right away	ADV	null
+shrimp scampi	N	n.FOOD
+portion generous	N	n.QUANTITY
+have to say	V.VID	v.communication
+break the bank	V.VID	v.possession
+take pride	V.VID	v.cognition
+sweet as pie	ADJ	null
+make a buck	V.VID	v.social
+cuban coffee	N	n.FOOD
+stop in	V.VPC.full	v.social
+get by	V.VPC.full	v.social
+black bean	N	n.FOOD
+fry plantain	N	n.FOOD
+to die for	ADJ	null
+have a bite	V.VID	v.consumption
+a slice of heaven	N	n.COGNITION
+winter park	N	n.LOCATION
+spare rib	N	n.FOOD
+moo shu	N	n.FOOD
+Neptune platter	N	n.FOOD
+Split , Croatia	N	n.LOCATION
+Dr. Faris	N	n.PERSON
+back pain	N	n.STATE
+New Yorker	N	n.PERSON
+Oxford , England	N	n.LOCATION
+devoid of	ADJ	null
+NYC style pizza	N	n.FOOD
+go on a trip	V.LVC.full	v.motion
+the holy grail	N	n.COMMUNICATION
+the real deal	N	n.COMMUNICATION
+NYC pizza	N	n.FOOD
+nail it	V.VID	v.social
+that be say	DISC	null
+new yorkedness	N	n.ATTRIBUTE
+scrummy yummy	N	n.GROUP
+have replace	V.LVC.cause	v.change
+Hom - Excel	N	n.GROUP
+write review	V.LVC.full	v.communication
+gain entry	V.LVC.full	v.social
+pry bar	N	n.ARTIFACT
+next - door neighbor	N	n.PERSON
+turn on	V.VPC.full	v.change
+leave behind	V.VPC.semi	v.stative
+Home - Excel	N	n.GROUP
+lo and behold	INTJ	null
+charge a dime	V.VID	v.possession
+change lightbulb	V.VID	v.change
+in this day and age	PP	p.Time
+such as	P	p.PartPortion
+wisdom teeth	N	n.BODY
+take out	V.VPC.full	v.body
+Dr. Wallen	N	n.PERSON
+in detail	PP	p.Manner
+Anna Marie	N	n.PERSON
+take over	V.VPC.full	v.stative
+whether or not	SCONJ	null
+big box store	N	n.GROUP
+on and on	DISC	null
+keep you eye open	V.VID	v.cognition
+on the other hand	DISC	null
+Richmond Ukrops	N	n.GROUP
+know for	V.IAV	v.cognition
+salsa verde	N	n.FOOD
+void of	ADJ	null
+spice up	V.VPC.full	v.change
+in business	PP	p.Characteristic
+La Hacienda	N	n.GROUP
+UTC La Jolla	N	n.LOCATION
+off the bat	PP	p.Time
+all the time	N	n.TIME
+every thing	PRON	null
+clean up	V.VPC.semi	v.change
+haul off	V.VPC.semi	v.motion
+Spears Roofing	N	n.GROUP
+fitness center	N	n.GROUP
+Fountain Dental Practice	N	n.GROUP
+provide service	V.LVC.full	v.social
+put at ease	V.VID	v.social
+go along	V.VPC.full	v.stative
+give feeling	V.LVC.cause	v.emotion
+Dr. Lucy Nichols	N	n.PERSON
+work do	V.LVC.full	v.social
+Steven Starr	N	n.PERSON
+4 star	N	n.COMMUNICATION
+up to par	PP	p.Characteristic
+price tag	N	n.POSSESSION
+rather than	P	p.ComparisonRef
+angry lobster	N	n.FOOD
+filler vegetable	N	n.FOOD
+Cranmore Dental and Implant Clinic	N	n.GROUP
+could not recommend enough	V.VID	v.communication
+Dr David Nelson	N	n.PERSON
+Dr Nelson	N	n.PERSON
+sinking feeling	N	n.FEELING
+in addition to	DISC	null
+well - being	N	n.FEELING
+go the extra mile	V.VID	v.social
+Pam Gillies	N	n.PERSON
+concerned with	ADJ	null
+get treatment	V.VPC.full	v.body
+up to standard	PP	p.Characteristic
+come across	V.IAV	v.social
+get in car accident	V.VID	v.stative
+one bit	PRON	null
+local business	N	n.GROUP
+who give a crap	DISC	null
+as long as	P	p.Circumstance
+walk - in	N	n.PERSON
+go with	V.IAV	v.social
+Richard Joule	N	n.PERSON
+set out	V.VPC.full	v.cognition
+no other than	ADJ	null
+Atlanta Paperback Book Printing	N	n.GROUP
+Lovely Nails	N	n.GROUP
+Cayuga St.	N	n.LOCATION
+start out	V.VPC.semi	v.communication
+have pedicure	V.LVC.full	v.body
+Military Road	N	n.LOCATION
+warm up	V.VPC.semi	v.change
+a stretch	N	n.ATTRIBUTE
+nail polish	N	n.SUBSTANCE
+accord to	P	p.Circumstance
+Rhino 700	N	n.ARTIFACT
+Grizzly 700	N	n.ARTIFACT
+search high and low	V.VID	v.cognition
+treat like dirt	V.VID	v.social
+Cycle City	N	n.GROUP
+Peachstate Powersports	N	n.GROUP
+Signs of Saltford	N	n.GROUP
+drive force	N	n.COGNITION
+pop - up	ADJ	null
+over the year	PP	p.Duration
+first class	N	n.COGNITION
+family business	N	n.GROUP
+Dr. Chao	N	n.PERSON
+early on	ADV	null
+smoker 's haven	N	n.COGNITION
+electric outlet	N	n.ARTIFACT
+have yet to	AUX	null
+cover up	V.VPC.semi	v.social
+move in	V.VPC.semi	v.motion
+Patio World	N	n.GROUP
+the new kid on the block	N	n.GROUP
+that be Amore	N	n.GROUP
+the usual	ADJ	null
+step it up notch	V.VID	v.change
+arancini di riso	N	n.FOOD
+chocolate mousse	N	n.FOOD
+pay attention	V.LVC.full	v.cognition
+fuel economy	N	n.ATTRIBUTE
+find out	V.VPC.full	v.cognition
+blower fan	N	n.ARTIFACT
+Vic Canever	N	n.PERSON
+other than	DISC	null
+state inspection	N	n.EVENT
+shop around	V.VPC.semi	v.social
+gas mileage	N	n.RELATION
+off of	P	p.Source
+back and forth	PP	p.Direction
+a bunch	DET	null
+Dr. Strzalka	N	n.PERSON
+Flagship CVTS	N	n.GROUP
+Dr. Christopher T. Strzalka	N	n.PERSON
+man of word	N	n.PERSON
+aortic stenosis	N	n.STATE
+Health Care Proxy	N	n.GROUP
+write in stone	V.VID	v.cognition
+middle aged	ADJ	null
+thanks to	P	p.Explanation
+the other day	N	n.TIME
+bull fighting	N	n.ACT
+a handful	N	n.QUANTITY
+morelias enchilada	N	n.FOOD
+Kobey 's	N	n.GROUP
+have do	V.VID	v.social
+down to earth	ADJ	null
+lab coat	N	n.ARTIFACT
+can not go wrong	V.VID	v.cognition
+mixed bag	N	n.COGNITION
+be a nice touch	N	n.COMMUNICATION
+chicken finger	N	n.FOOD
+more than	P	p.Approximator
+business card	N	n.ARTIFACT
+do hair	V.VID	v.body
+be make to	V.VID	v.stative
+go to school	V.VID	v.motion
+hair cut	N	n.ACT
+grow up	V.VPC.full	v.change
+dry out	V.VPC.semi	v.change
+what like	PP	p.Manner
+jiffy lube	N	n.GROUP
+shoot the breeze	V.VID	v.social
+more like	DISC	null
+on duty	PP	p.Characteristic
+on a budget	PP	p.Manner
+kc chiefs	N	n.GROUP
+home team	N	n.GROUP
+NY jets	N	n.GROUP
+world series	N	n.EVENT
+red sox	N	n.GROUP
+knights inn	N	n.GROUP
+New York	N	n.LOCATION
+on top of	P	p.Locus
+house of Joy Chinese Restaurant	N	n.GROUP
+San Antonio	N	n.LOCATION
+a while	N	n.TIME
+house of Joy	N	n.GROUP
+happen to	AUX	null
+stumble across	V.IAV	v.cognition
+Bexar County Tax Office	N	n.GROUP
+Bandera Road	N	n.LOCATION
+Egg Drop Soup	N	n.FOOD
+egg roll	N	n.FOOD
+spring roll	N	n.FOOD
+get out	V.VPC.full	v.motion
+wait around	V.VID	v.cognition
+night out	N	n.EVENT
+Karla Ferguson - Granger	N	n.PERSON
+leave comment	V.LVC.full	v.communication
+co worker	N	n.PERSON
+except for	P	p.PartPortion
+in the middle of	P	p.Circumstance
+sure enough	ADV	null
+check - in	N	n.ACT
+take as far as can	V.VID	v.social
+massage therapist	N	n.PERSON
+New China	N	n.GROUP
+Green Buffet	N	n.GROUP
+fast food	N	n.FOOD
+Lake St. Louis	N	n.LOCATION
+sad face	DISC	null
+2004 x - type	N	n.ARTIFACT
+2009 XF	N	n.ARTIFACT
+Michael Chestney	N	n.PERSON
+trade - in	N	n.ACT
+09 XF	N	n.ARTIFACT
+give and take	N	n.COMMUNICATION
+Barrett Motor Cars of San Antonio	N	n.GROUP
+above all	DISC	null
+car dealer	N	n.PERSON
+small town	N	n.GROUP
+run for the hill	V.VID	v.motion
+better off	ADJ	null
+too much	ADJ	null
+next to	P	p.Locus
+toilet seat	N	n.ARTIFACT
+Days Inn	N	n.GROUP
+the Hilton	N	n.GROUP
+hang up	V.VPC.full	v.communication
+second chance	N	n.EVENT
+to death	PP	p.Extent
+leave a lot to be desire	V.VID	v.stative
+NW hospital	N	n.GROUP
+take of	V.IAV	v.social
+as far as	DISC	null
+dental work	N	n.ACT
+take courage	V.VID	v.emotion
+front door	N	n.LOCATION
+Doctor Gonzales	N	n.PERSON
+new lease on life	N	n.COGNITION
+Doctor Stout	N	n.PERSON
+Eva Marie	N	n.PERSON
+Rocky M. Lange	N	n.PERSON
+Clark County School District	N	n.GROUP
+Dr. Taylor	N	n.PERSON
+give opinion	V.LVC.full	v.communication
+in general	DISC	null
+sale guy	N	n.PERSON
+have to do with	V.VID	v.stative
+sales guy	N	n.PERSON
+go cry	V.VID	v.communication
+drop the issue	V.VID	v.communication
+play dumb	V.VID	v.cognition
+half truth	N	n.COGNITION
+for instance	DISC	null
+tell to face	V.VID	v.communication
+2010 Genesis	N	n.ARTIFACT
+brand new	ADJ	null
+2010 Hyundai Genesis	N	n.ARTIFACT
+wal mart	N	n.GROUP
+get to	V.IAV	v.change
+head over heel	ADV	null
+Prominent Builders	N	n.GROUP
+prominent builder	N	n.GROUP
+New Jersey	N	n.LOCATION
+get nail fill	V.VID	v.body
+with the exception of	P	p.PartPortion
+have a pedicure	V.LVC.full	v.stative
+cut nail	V.VID	v.body
+big toe	N	n.BODY
+Richmond city limit	N	n.LOCATION
+first run	N	n.ATTRIBUTE
+fill role	V.VID	v.stative
+Flying Squirrels	N	n.GROUP
+main feature	N	n.COMMUNICATION
+repeat customer	N	n.PERSON
+get discount	N	n.POSSESSION
+member card	N	n.ARTIFACT
+environmentally friendly	ADJ	null
+Suzanne , Vancouver	N	n.LOCATION
+Fancy Flowers	N	n.GROUP
+call in	V.VPC.semi	v.communication
+of late	PP	p.Time
+under circumstance	PP	p.Circumstance
+Bistro Tallulah	N	n.GROUP
+Adelphi Hotel	N	n.GROUP
+dead on	ADJ	null
+put off	V.VPC.full	v.emotion
+world traveler	N	n.PERSON
+Saratoga Springs	N	n.LOCATION
+seek out	V.VPC.semi	v.cognition
+make a point of	V.VID	v.cognition
+R. Morris	N	n.PERSON
+Rt 1	N	n.LOCATION
+gift certificate	N	n.POSSESSION
+Mama Mia 's	N	n.GROUP
+Greenfield Ave	N	n.LOCATION
+come time	V.VID	v.stative
+up front	PP	p.Locus
+check card	N	n.POSSESSION
+ring up	V.VPC.full	v.possession
+gift card	N	n.POSSESSION
+come apart	V.VPC.full	v.change
+come over	V.VPC.semi	v.motion
+who would have	DISC	null
+any one	PRON	null
+give a call	V.VPC.full	v.communication
+talk down	V.IAV	v.communication
+for the sake of	P	p.Purpose
+Christmas tree	N	n.PLANT
+eco friendly	ADJ	null
+Taj Mahal	N	n.GROUP
+east coast	N	n.LOCATION
+put hair on chest	V.VID	v.stative
+invest vanguard	N	n.POSSESSION
+Tussey Mountain Tree Plantation	N	n.GROUP
+Nidd Design	N	n.GROUP
+book a reservation	V.LVC.full	v.social
+place packed	N	n.STATE
+walk around	V.VPC.semi	v.motion
+give tip	V.LVC.full	v.possession
+finger lick	ADJ	null
+color I phat	N	n.GROUP
+Giovanni Ristorante	N	n.GROUP
+number 1 choice	N	n.COGNITION
+steak house	N	n.GROUP
+more of	DISC	null
+GREEN BAY	N	n.LOCATION
+RUTH CHRIS	N	n.GROUP
+grow out	V.VPC.semi	v.body
+your self	PRON	null
+Hellada Gallery	N	n.GROUP
+Marek Dzida	N	n.PERSON
+old fashion	N	n.COGNITION
+Long Beach	N	n.LOCATION
+in to	P	p.Goal
+spend time	V.VID	v.social
+Run on	N	n.GROUP
+Warner Family	N	n.GROUP
+patient see	N	n.GROUP
+I can not speak for	DISC	null
+in best interest	PP	p.Manner
+family practice	N	n.GROUP
+blow away	V.VPC.full	v.cognition
+the same	ADJ	null
+down fall	N	n.COGNITION
+bait and switch	N	n.COGNITION
+rip out	V.VPC.full	v.change
+sq ft	N	n.QUANTITY
+all inclusive	ADJ	null
+pull out	V.VPC.full	v.change
+lace up	V.VPC.full	v.social
+look up	V.VPC.full	v.cognition
+fall for	V.IAV	v.cognition
+waste of time	N	n.ACT
+sale lady	N	n.PERSON
+try on	V.VPC.full	v.body
+refer to	V.IAV	v.communication
+have on	V.VPC.full	v.body
+even if	SCONJ	null
+think so	V.VID	v.cognition
+take approach	V.LVC.full	v.social
+common courtesy	N	n.COGNITION
+Wedding Gallery	N	n.GROUP
+the most important day of life	N	n.EVENT
+not even	ADV	null
+in spite of	P	p.Circumstance
+get in touch	V.VID	v.communication
+lodge complaint	V.LVC.full	v.communication
+girl night	N	n.EVENT
+catch up	V.VPC.full	v.social
+get away	V.VPC.full	v.cognition
+not budge	V.VID	v.change
+Mackinaw Tourist	N	n.GROUP
+be a joke	V.VID	v.stative
+in hope to	PP	p.Purpose
+as a example	DISC	null
+second hand smoke	N	n.SUBSTANCE
+Tiger Heating	N	n.GROUP
+get replace	V.VID	v.change
+TIGER HEATING and AIR	N	n.GROUP
+a little bit	DET	null
+in particular	DISC	null
+male pattern baldness	N	n.BODY
+pass on	V.VPC.full	v.body
+then again	DISC	null
+21st St	N	n.LOCATION
+primary care	N	n.ACT
+rip - off	N	n.COGNITION
+bring in	V.VPC.semi	v.motion
+check engine light	N	n.ARTIFACT
+out of the way	PP	p.Source
+windshield washer fluid	N	n.ARTIFACT
+air filter	N	n.ARTIFACT
+spring clip	N	n.ARTIFACT
+get correct	V.VID	v.cognition
+try to tell	V.VID	v.communication
+stand for	V.IAV	v.cognition
+on the market	PP	p.Characteristic
+give up	V.VPC.full	v.cognition
+high school	N	n.GROUP
+Franklin High School	N	n.GROUP
+4 - year college	N	n.GROUP
+US News	N	n.GROUP
+U. Penn	N	n.GROUP
+William and Mary	N	n.GROUP
+Carnegie Mellon	N	n.GROUP
+among other	PP	p.Whole
+top - rank	ADJ	null
+make it	V.VID	v.stative
+road test	N	n.ACT
+Noble driving school	N	n.GROUP
+Ted Jurek	N	n.PERSON
+Decor and You	N	n.GROUP
+make up for	V.IAV	v.cognition
+I figure	V.VID	v.cognition
+give a chance	V.LVC.cause	v.social
+non refundable	ADJ	null
+fabric book	N	n.ARTIFACT
+come over budget	V.VID	v.stative
+to show for	ADJ	null
+take heed	V.VID	v.social
+DECOR and YOU	N	n.GROUP
+any more	ADV	null
+Dr. de Barros	N	n.PERSON
+so that	SCONJ	null
+have option	V.LVC.full	v.cognition
+ball pit	N	n.ARTIFACT
+give liberty	V.LVC.cause	v.social
+Kusal Goonewardena	N	n.PERSON
+here be the scoop	DISC	null
+sit around	V.VPC.semi	v.stative
+in hurry	PP	p.Manner
+in experience	PP	p.Circumstance
+for the most part	PP	p.Extent
+to begin with	DISC	null
+know better	V.VID	v.cognition
+take - out	N	n.FOOD
+get home	V.VID	v.stative
+get into	V.IAV	v.change
+BJ 's	N	n.GROUP
+have a time	V.VID	v.stative
+Dr. Mann	N	n.PERSON
+around the corner	PP	p.Locus
+bring up	V.VPC.full	v.communication
+no big deal	DISC	null
+ever again	ADV	null
+have the audacity	V.VID	v.cognition
+at all cost	PP	p.Manner
+World Hats Mart	N	n.GROUP
+lead to believe	V.VID	v.cognition
+in search of	P	p.Circumstance
+magic act	N	n.ACT
+mix up	V.VPC.full	v.cognition
+dinner plate	N	n.ARTIFACT
+throw out	V.VPC.full	v.consumption
+orange chicken	N	n.FOOD
+kung pao chicken	N	n.FOOD
+China Delight	N	n.GROUP
+lo mein	N	n.FOOD
+Lucky Panda	N	n.GROUP
+number 1	N	n.RELATION
+Solana Beach	N	n.LOCATION
+T 's Cafe	N	n.GROUP
+bloody mary	N	n.FOOD
+egg benedict	N	n.FOOD
+T 's	N	n.GROUP
+North County	N	n.LOCATION
+with good reason	PP	p.Explanation
+own and operate	V.VID	v.social
+home - cook	V.VID	v.creation
+chance be	ADV	null
+Le petit	N	n.GROUP
+get nail do	V.VID	v.social
+try out	V.VPC.semi	v.social
+deal in	V.IAV	v.possession
+Purple Goose	N	n.GROUP
+Nick 's	N	n.GROUP
+sub par	ADJ	null
+home make	N	n.COGNITION
+stand the test of time	V.VID	v.stative
+the Brick	N	n.GROUP
+Leon 's	N	n.GROUP
+even up	V.VPC.semi	v.body
+Fidelity Leasing	N	n.GROUP
+figure out	V.VPC.full	v.cognition
+make sale	V.LVC.full	v.possession
+go over	V.IAV	v.communication
+call up	V.VPC.semi	v.communication
+weight loss	N	n.COGNITION
+out of control	PP	p.Characteristic
+stress out	V.VPC.semi	v.emotion
+at peace	PP	p.Characteristic
+be a big baby	V.VID	v.stative
+Dr. Liau	N	n.PERSON
+bathing suit	N	n.ARTIFACT
+over priced	ADJ	null
+go back	V.VPC.semi	v.motion
+nail drill	N	n.ARTIFACT
+old fashioned	ADJ	null
+Crust on Broad	N	n.GROUP
+place order	V.LVC.full	v.communication
+not a to be find	DISC	null
+pure pilates	N	n.GROUP
+the real thing	N	n.COMMUNICATION
+attention to detail	N	n.COGNITION
+set apart	V.VPC.full	v.stative
+sale person	N	n.PERSON
+get healthy	V.VID	v.change
+Dr. Ruona	N	n.PERSON
+quit smoking	V.VID	v.change
+might as well	AUX	null
+traffic light	N	n.ARTIFACT
+for chrissake	DISC	null
+go to heck	V.VID	v.motion
+at first	PP	p.Time
+do wonder	V.LVC.full	v.stative
+child predator	N	n.PERSON
+out there	PP	p.Locus
+money hungry	ADJ	null
+get into a accident	V.VID	v.stative
+in the end	PP	p.Circumstance
+carry out	V.VPC.full	v.social
+wake up	V.VPC.semi	v.change
+get up	V.VPC.full	v.body
+add insult to injury	V.VID	v.social
+believe I	V.VID	v.cognition
+Pizza Hut	N	n.GROUP
+Chili 's	N	n.GROUP
+# 1	ADJ	null
+art school	N	n.GROUP
+the Rams	N	n.GROUP
+NCAA final 4	N	n.EVENT
+high - rise	N	n.ARTIFACT
+fix - up	V.VPC.semi	v.change
+the fan	N	n.LOCATION
+Canal Walk	N	n.LOCATION
+Stony Point	N	n.LOCATION
+Short Pump	N	n.LOCATION
+VCU Medical Center	N	n.GROUP
+rave review	N	n.COMMUNICATION
+U of R	N	n.GROUP
+Caffe Bella Italia	N	n.GROUP
+antipasto misto	N	n.FOOD
+spaghetti alla barese	N	n.FOOD
+mouth water	ADJ	null
+chocolate lava cake	N	n.FOOD
+Dr Greenwalt	N	n.PERSON
+pain med	N	n.ARTIFACT
+talk into	V.VPC.full	v.social
+to my surprise	PP	p.Goal
+do it	V.VID	v.change
+Raina 's	N	n.GROUP
+be a pain	V.VID	v.stative
+Kumon Parents	N	n.GROUP
+next door	N	n.LOCATION
+heebee gee bees'	N	n.COGNITION
+grandma slice	N	n.FOOD
+in the process of	P	p.Circumstance
+on purpose	PP	p.Manner
+well - done	ADJ	null
+better business bureau	N	n.GROUP
+customer relation	N	n.ACT
+give test	V.LVC.cause	v.social
+HR Office	N	n.GROUP
+La Jolla	N	n.LOCATION
+Blue Book	N	n.COMMUNICATION
+white page	N	n.COMMUNICATION
+one by one	ADV	null
+sister in law	N	n.PERSON
+test out	V.VPC.semi	v.social
+my self	PRON	null
+Roll UP Crepes	N	n.GROUP
+Cesar Gracie	N	n.PERSON
+black belt	N	n.PERSON
+ufc fighter	N	n.PERSON
+jiu - jitsu	N	n.ACT
+Santa Rosa	N	n.LOCATION
+back up	V.VPC.full	v.social
+Dave Terrell	N	n.PERSON
+dos base	N	n.ATTRIBUTE
+grocery shop	N	n.GROUP
+overcome issue	V.VID	v.social
+back office	N	n.COGNITION
+on call	PP	p.Characteristic
+Buckingham Condominiums	N	n.GROUP
+fashion accessory	N	n.ARTIFACT
+niche market	N	n.COGNITION
+take the plunge	V.VID	v.cognition
+make decision	V.LVC.full	v.cognition
+social media	N	n.COMMUNICATION
+search engine optimization	N	n.COGNITION
+the next big thing	N	n.OTHER
+key performance indicator	N	n.COGNITION
+so far	ADV	null
+web site	N	n.COMMUNICATION
+3 fold	N	n.QUANTITY
+take a chance	V.VID	v.social
+lead the way	V.VID	v.social
+think of	V.IAV	v.cognition
+record label	N	n.GROUP
+know stuff	V.VID	v.cognition
+down side	N	n.COGNITION
+oil tank	N	n.ARTIFACT
+convenience store	N	n.GROUP
+Valentine 's	N	n.EVENT
+turn down	V.VPC.full	v.social
+step up to the plate	V.VID	v.social
+over power	V.VID	v.stative
+out of way	PP	p.Path
+Hair by Nivine	N	n.GROUP
+Dr. Romanick	N	n.PERSON
+get on the phone	V.VID	v.communication
+Providence Aesthetics and Medical Spa	N	n.GROUP
+Jana Kueck	N	n.PERSON
+state of the art	N	n.COGNITION
+Robin Talley	N	n.PERSON
+Second Home	N	n.GROUP
+be inclined	V.VID	v.cognition
+give the opportunity	V.LVC.cause	v.social
+do introduction	V.LVC.full	v.social
+say no	V.VID	v.communication
+keep safe	V.VID	v.stative
+give alternative	V.VID	v.communication
+used to	ADJ	null
+know what they be do	V.VID	v.cognition
+bruise ego	V.VID	v.emotion
+Ham 's	N	n.GROUP
+be no more	V.VID	v.stative
+hard time	N	n.STATE
+so long	ADV	null
+five - star	N	n.COMMUNICATION
+kind of	ADV	null
+on all level	PP	p.Extent
+some place	PRON	null
+corking fee	N	n.POSSESSION
+TEXAS ROADHOUSE	N	n.GROUP
+on a note	DISC	null
+waiting area	N	n.LOCATION
+BUFFALO wing	N	n.FOOD
+say sorry	V.VID	v.communication
+Just Autos	N	n.GROUP
+mobile mechanic	N	n.GROUP
+sort out	V.VPC.full	v.cognition
+give the go ahead	V.VID	v.communication
+be happy camper	V.VID	v.stative
+James Bateman	N	n.PERSON
+Team Texas Construction	N	n.GROUP
+waffle maker	N	n.ARTIFACT
+a +	N	n.COMMUNICATION
+Bradley Chevron	N	n.GROUP
+bradley food and beverage	N	n.GROUP
+around corner	PP	p.Locus
+last name	N	n.COMMUNICATION
+worth time	ADJ	null
+make money	V.VID	v.social
+go downhill	V.VID	v.change
+to date	PP	p.Duration
+make good	V.VID	v.social
+take back	V.VPC.semi	v.motion
+put on	V.VPC.full	v.contact
+feel like a number	V.VID	v.cognition
+Kids first West Chester	N	n.GROUP
+on the phone	PP	p.Circumstance
+get appointment	V.LVC.full	v.social
+in traffic	PP	p.Characteristic
+Tanglewood Apartments	N	n.GROUP
+Endo Sushi	N	n.GROUP
+one - way street	N	n.COGNITION
+shopping center	N	n.GROUP
+be sure	V.VID	v.cognition
+hostess stand	N	n.ARTIFACT
+Creekside Apartments	N	n.GROUP
+work staff	N	n.GROUP
+Stokes Street	N	n.LOCATION
+Bascom Light Rail	N	n.GROUP
+walking distance	N	n.RELATION
+Trader Joe 's	N	n.GROUP
+Whole Foods	N	n.GROUP
+be a plus	V.VID	v.stative
+San Jose	N	n.LOCATION
+Alta Moda	N	n.GROUP
+Chicken salad	N	n.FOOD
+quick on foot	ADJ	null
+get to know	V.VID	v.social
+do job	V.LVC.full	v.social
+at that	DISC	null
+Sears Automotives	N	n.GROUP
+drive up	V.VPC.semi	v.motion
+pull - up	N	n.ARTIFACT
+stand around	V.VPC.semi	v.stative
+steering wheel	N	n.ARTIFACT
+go ahead	V.VID	v.social
+in stock	PP	p.Characteristic
+attend to	V.IAV	v.social
+service paper	N	n.COMMUNICATION
+print out	V.VPC.semi	v.communication
+point out	V.VPC.full	v.cognition
+wheel lock	N	n.ARTIFACT
+hurry up	V.VPC.semi	v.stative
+in time	PP	p.Manner
+phone number	N	n.COMMUNICATION
+get a flat	V.VID	v.stative
+a to - do	N	n.COGNITION
+work perform	V.LVC.full	v.social
+wine tasting	N	n.EVENT
+beg to differ	V.VID	v.cognition
+take on	V.VPC.full	v.cognition
+out of town	PP	p.Locus
+to start off with	DISC	null
+Advanced auto parts	N	n.GROUP
+pipe hot	ADJ	null
+PAT testing	N	n.ACT
+SRD PAT testing	N	n.GROUP
+pat test	V.VID	v.social
+spill the Whisky	N	n.GROUP
+barn dance	N	n.ACT
+out of this world	PP	p.Characteristic
+a ++++	SYM	null
+JUNO and OPEN	N	n.GROUP
+no homo	DISC	null
+trust the Midas touch	DISC	null
+the world revolve around	V.VID	v.stative
+high tech	ADJ	null
+in deed	ADV	null
+put on a pedestal	V.VID	v.social
+call in sick	V.VID	v.communication
+the point	N	n.COMMUNICATION
+hang out	V.VPC.full	v.social
+beginning yoga with Brittany	N	n.GROUP
+Fuji Sushi	N	n.GROUP
+come up	V.VPC.full	v.communication
+to go	ADJ	null
+dine in	V.VID	v.social
+client base	N	n.GROUP
+bang for buck	N	n.ATTRIBUTE
+consist of	V.IAV	v.stative
+fend for	V.IAV	v.cognition
+tax payer	N	n.PERSON
+get over	V.IAV	v.cognition
+good night 's sleep	N	n.COGNITION
+Hot Iron	N	n.GROUP
+keep from	V.IAV	v.change
+turn to	V.IAV	v.change
+kid 's meal	N	n.FOOD
+do re-wiring	V.VID	v.change
+wedding day	N	n.EVENT
+get picture	V.VID	v.communication
+Rod Jacobsen	N	n.PERSON
+that say	DISC	null
+out of the ordinary	PP	p.Manner
+leave it at that	V.VID	v.cognition
+come to	V.IAV	v.stative
+be say and do	V.VID	v.stative
+face with	V.VID	v.stative
+have in mind	V.VID	v.cognition
+let down	V.VPC.full	v.social
+sale man	N	n.PERSON
+do paperwork	V.LVC.full	v.communication
+credit score	N	n.COMMUNICATION
+A Dong	N	n.GROUP
+Central Iowa	N	n.LOCATION
+no joke	DISC	null
+all kidding aside	DISC	null
+be sure to	V.VID	v.stative
+high hope	N	n.COGNITION
+rub it in	V.VID	v.communication
+graphic design	N	n.COGNITION
+Fresh Design Studio	N	n.GROUP
+jump - start	V.VID	v.change
+identity theft	N	n.ACT
+do one on	V.VID	v.social
+pull over	V.VPC.full	v.social
+social security number	N	n.COMMUNICATION
+put in charge	V.VID	v.social
+across from	P	p.Locus
+belong to	V.IAV	v.possession
+parking space	N	n.ARTIFACT
+Mini Cooper	N	n.ARTIFACT
+live up to	V.VID	v.cognition
+all kind	N	n.COGNITION
+car wash	N	n.ACT
+the thing be	DISC	null
+all the way	ADV	null
+hole in the wall	N	n.COGNITION
+take break	V.LVC.full	v.social
+go to work	V.VID	v.motion
+west indian	ADJ	null
+hit up	V.VPC.full	v.social
+raise on	V.IAV	v.social
+Jamaica Way	N	n.GROUP
+tone down	V.VPC.full	v.stative
+out - of - town	PP	p.Locus
+sofa bed	N	n.ARTIFACT
+give explanation	V.LVC.full	v.communication
+fire drill	N	n.EVENT
+quiet down	V.VPC.semi	v.stative
+sheet metal	N	n.ARTIFACT
+make due	V.VID	v.cognition
+ask for back	V.VPC.semi	v.communication
+too bad	ADJ	null
+first time	N	n.EVENT
+soccer mom	N	n.PERSON
+when it come to	P	p.Topic
+Scott Larson	N	n.PERSON
+cowboy boot	N	n.ARTIFACT
+wood grain	N	n.ARTIFACT
+be through	V.IAV	v.social
+work week	N	n.TIME
+Mr. Squeege	N	n.GROUP
+go - to	ADJ	null
+g 1	N	n.ARTIFACT
+about to	AUX	null
+for get that	V.VID	v.cognition
+rear window	N	n.ARTIFACT
+test driving	N	n.ACT
+under warranty	PP	p.Characteristic
+who know	DISC	null
+Peking Garden	N	n.GROUP
+shut down	V.VPC.full	v.change
+health inspector	N	n.PERSON
+put on hold	V.VID	v.communication
+Radison Warwick	N	n.GROUP
+Rittenhouse Square	N	n.LOCATION
+Radison - Warwick	N	n.GROUP
+CENTER CITY PHILLY	N	n.LOCATION
+RADISON WARWICK	N	n.GROUP
+get to work	V.VID	v.social
+LOCUST STREET	N	n.LOCATION
+WARWICK TOWNSHIP	N	n.LOCATION
+17th street	N	n.LOCATION
+14th street	N	n.LOCATION
+Geno 's	N	n.GROUP
+Youngstown Sports Grille	N	n.GROUP
+do not even get I start	DISC	null
+La Crosse	N	n.GROUP
+Dr. Obina	N	n.PERSON
+Dr. Olbina	N	n.PERSON
+Amelia Gentle Dentistry	N	n.GROUP
+assembly line	N	n.PROCESS
+a - team	N	n.GROUP
+full - time	ADJ	null
+two thumb up	N	n.COMMUNICATION
+Yards Brewery	N	n.GROUP
+Love Stout	N	n.FOOD
+dogwood grill cheese	N	n.FOOD
+Nitrogen Love Stout	N	n.FOOD
+A CLASS Garage Doors dr service	N	n.GROUP
+in no time	PP	p.Duration
+A CLASS Garage Doors	N	n.GROUP
+New York pizza	N	n.FOOD
+New York style pizza	N	n.FOOD
+at a premium	PP	p.Cost
+the Laundry Tub	N	n.GROUP
+avail of	V.IAV	v.social
+wash and fold	V.VID	v.social
+garbage bag	N	n.ARTIFACT
+800 number	N	n.COMMUNICATION
+in other word	DISC	null
+wine glass	N	n.ARTIFACT
+shower head	N	n.ARTIFACT
+shut off	V.VPC.full	v.change
+who - know - what	V.VID	v.social
+top to bottom	N	n.LOCATION
+stick up	V.VPC.full	v.social
+give a crap	V.VID	v.emotion
+United Air Duct Cleaning	N	n.GROUP
+air duct	N	n.ARTIFACT
+home inspector	N	n.PERSON
+United Air Duct	N	n.GROUP
+Dr. Shady	N	n.PERSON
+hit the nail on the head	V.VID	v.cognition
+good luck	DISC	null
+feel like	V.VID	v.emotion
+Fran pcs	N	n.GROUP
+on a whim	PP	p.Explanation
+as usual	PP	p.ComparisonRef
+fill up	V.VPC.semi	v.consumption
+belgian tavern	N	n.GROUP
+break down	V.VPC.semi	v.change
+Sussman Kia	N	n.GROUP
+squeeze in	V.VPC.full	v.social
+up and run	PP	p.Characteristic
+give ride	V.LVC.full	v.motion
+up to date	PP	p.Characteristic
+Brickell Honda	N	n.GROUP
+sale manager	N	n.PERSON
+Gustavo Guerra	N	n.PERSON
+Braman Honda	N	n.GROUP
+no problem	N	n.COGNITION
+do better	V.VID	v.competition
+Mr. Guerra	N	n.PERSON
+give deal	V.LVC.full	v.possession
+St. Thomas the Apostle	N	n.GROUP
+south Florida	N	n.LOCATION
+a matter of	P	p.Approximator
+self service	N	n.ACT
+have fun	V.LVC.full	v.emotion
+Ball Square Cafe	N	n.GROUP
+in essence	PP	p.Characteristic
+petting zoo	N	n.GROUP
+feel the need	V.LVC.full	v.cognition
+make complaint	V.LVC.full	v.communication
+Mrs Closs	N	n.PERSON
+regardless of	P	p.Circumstance
+computer network	N	n.COMMUNICATION
+in itself	DISC	null
+check in	N	n.EVENT
+can be assure	V.VID	v.social
+be no stranger to	V.VID	v.cognition
+tight corner	N	n.COGNITION
+Liberty construction	N	n.GROUP
+sale pitch	N	n.COMMUNICATION
+trust gut	V.VID	v.cognition
+craft wonderland	N	n.GROUP
+sense of humor	N	n.ATTRIBUTE
+country girl	N	n.PERSON
+mix bag	N	n.COGNITION
+Barbara Quimba	N	n.PERSON
+catch my eye	V.VID	v.perception
+HONKA Log Homes	N	n.GROUP
+Evergreen Parkway	N	n.LOCATION
+deep condition	V.VID	v.body
+laid - back	ADJ	null
+get off	V.VPC.full	v.possession
+the Grill	N	n.GROUP
+sum up	V.VPC.full	v.communication
+Kwik Kar	N	n.GROUP
+have time	V.VID	v.cognition
+watch out	V.VID	v.cognition
+pride on	V.IAV	v.cognition
+team building	N	n.COGNITION
+better believe	V.VID	v.cognition
+feel good	V.VID	v.emotion
+Canadian Outback	N	n.GROUP
+price out of	V.VID	v.competition
+take for	V.IAV	v.possession
+french tip	N	n.ARTIFACT
+the Creative Workshop	N	n.GROUP
+over and above	P	p.Extent
+the call of duty	N	n.COGNITION
+do yourself a favor	V.VID	v.cognition
+queen bed	N	n.ARTIFACT
+treat to	V.IAV	v.social
+double bed	N	n.ARTIFACT
+ice machine	N	n.ARTIFACT
+Just Like Family	N	n.GROUP
+emission test	N	n.EVENT
+with fly color	PP	p.Manner
+rip off	V.VPC.full	v.social
+child molester	N	n.PERSON
+Phet and G&G Automotive	N	n.GROUP
+unheard of	ADJ	null
+these day	N	n.TIME
+go forward	V.VID	v.stative
+common room	N	n.ARTIFACT
+parisian croissant	N	n.ARTIFACT
+Gare du Nord	N	n.LOCATION
+Sacre Coeur	N	n.LOCATION
+bus line	N	n.ARTIFACT
+Opera Plaza	N	n.LOCATION
+Galleries Lafayette	N	n.LOCATION
+flea market	N	n.EVENT
+Vintage Hostel	N	n.GROUP
+rust out	V.VPC.semi	v.stative
+salad bar	N	n.FOOD
+hit and miss	ADJ	null
+smokehouse burger	N	n.FOOD
+back ache	N	n.STATE
+pool service	N	n.ACT
+buyer beware	DISC	null
+to face	PP	p.Goal
+Bay View	N	n.GROUP
+Camps Bay	N	n.LOCATION
+mass - market	N	n.COGNITION
+Scharffen Berger	N	n.GROUP
+hard work	N	n.ACT
+boy in blue	N	n.GROUP
+Slice Pizza	N	n.GROUP
+Britt 's	N	n.GROUP
+Britt 's Pizza	N	n.GROUP
+long gone	ADJ	null
+S. 10th	N	n.LOCATION
+Federal Sts.	N	n.LOCATION
+be home to	V.VID	v.stative
+criminal defense lawyer	N	n.PERSON
+Mr. Villega	N	n.PERSON
+cross examine	V.VID	v.social
+break down and	V.VPC.full	v.cognition
+tell the truth	V.VID	v.communication
+Law Offices of Armando Villega	N	n.GROUP
+take away	N	n.FOOD
+the libido band	N	n.GROUP
+out of site	PP	p.Characteristic
+work for I	V.VID	v.social
+bloom onion	N	n.FOOD
+save trip	V.VID	v.social
+run down	ADJ	null
+main room	N	n.ARTIFACT
+sit - about	N	n.PERSON
+cigar lounge	N	n.GROUP
+smoke shop	N	n.GROUP
+Japaneiro 's	N	n.GROUP
+Alan 's	N	n.GROUP
+kick back	V.VPC.full	v.stative
+cup of joe	N	n.FOOD
+Doctor Hank	N	n.PERSON
+on staff	PP	p.Org
+you can not beat this	V.VID	v.competition
+big rig	N	n.ARTIFACT
+road construction	N	n.EVENT
+student body	N	n.GROUP
+african - american	ADJ	null
+Canyon Road	N	n.LOCATION
+Destiny Allison	N	n.PERSON
+Winterowd Fine Art	N	n.GROUP
+high class	N	n.ATTRIBUTE
+take name	V.VID	v.communication
+master key	V.VID	v.creation
+strip mall	N	n.ARTIFACT
+a ++	N	n.COMMUNICATION
+vehicle wrap	N	n.ACT
+Toyota Venza	N	n.ARTIFACT
+Blue Water Bridge Duty Free	N	n.GROUP
+Blue Water Bridges	N	n.GROUP
+Fort Smith	N	n.LOCATION
+Hobby Lobby	N	n.GROUP
+just for Fun Fabrics	N	n.GROUP
+Interior Mall	N	n.GROUP
+look no further	V.VID	v.perception
+Pie Guy	N	n.PERSON
+a hoot	N	n.COGNITION
+family fun	N	n.COGNITION
+Burch 's Karate	N	n.GROUP
+over cook	V.VID	v.stative
+go down hill	V.VID	v.change
+pizza place	N	n.GROUP
+Dr Joseph	N	n.PERSON
+Dr. Dorn	N	n.PERSON
+holy cow	DISC	null
+make feel	V.VID	v.social
+A +	N	n.COMMUNICATION
+Malcolm Smith Motorsports	N	n.GROUP
+grammar structure	N	n.COGNITION
+A ++++++++++++++++++	SYM	null
+put out	V.VPC.full	v.creation
+blow glass	N	n.ARTIFACT
+the Looking Glass	N	n.GROUP
+tap water	N	n.SUBSTANCE
+lightning fast	ADJ	null
+pad thai	N	n.FOOD
+have hair cut	N	n.ACT
+ice cream	N	n.FOOD
+over charge	V.VID	v.possession
+on line	PP	p.Goal
+a pleasure	N	n.FEELING
+Cheap Hotel Rome	N	n.GROUP
+Dr Mcdonald	N	n.PERSON
+new born	ADJ	null
+brain dead	N	n.COGNITION
+give a darn	V.VID	v.emotion
+World 's Fair museum	N	n.GROUP
+in need of	P	p.Characteristic
+mis informed	ADJ	null
+Mi Pueblo	N	n.GROUP
+get busy	V.VID	v.social
+give massage	V.LVC.full	v.body
+fall in love	V.VID	v.emotion
+the best of the best	ADJ	null
+Woodland Hills	N	n.LOCATION
+wife and kid	N	n.GROUP
+can not get enough	V.VID	v.stative
+teacup chihuahua	N	n.ANIMAL
+Pets Discount	N	n.GROUP
+tip top	ADJ	null
+VISAKHA INDUSTRIAL GASES PVT. LTD.	N	n.GROUP
+google maps	N	n.COMMUNICATION
+Ashdown Horse Transport	N	n.GROUP
+chicken cordon - bleu	N	n.FOOD
+a touch	DET	null
+Walk against Drugs and Alcohol	N	n.EVENT
+Super 8	N	n.GROUP
+sr - 22	N	n.COMMUNICATION
+video cable	N	n.ARTIFACT
+phone call return	N	n.COMMUNICATION
+old school	N	n.COGNITION
+stop make Sense	N	n.COMMUNICATION
+Cinema 21	N	n.GROUP
+sport bar	N	n.GROUP
+check - out	N	n.ACT
+happen on to	V.VID	v.cognition
+red line	N	n.ARTIFACT
+veggie dog	N	n.FOOD
+360 restaurant	N	n.GROUP
+cn tower	N	n.LOCATION
+sky pod	N	n.ARTIFACT
+Dr. Cooper	N	n.PERSON
+Sushi Lover	N	n.COMMUNICATION
+most of all	DISC	null
+middle school	N	n.GROUP
+Bay Rd	N	n.LOCATION
+( 989 ) 755-1109	NUM	null
+have a way with	V.VID	v.social
+Drs. Ali	N	n.PERSON
+dental care	N	n.ACT
+Midtown Reston	N	n.GROUP
+a must	N	n.FEELING
+enough say	DISC	null
+a ton	N	n.QUANTITY
+living room	N	n.LOCATION
+Mrs. Lynda Mcmanus	N	n.PERSON
+Caldwell insurance	N	n.GROUP
+on schedule	PP	p.Manner
+human being	N	n.PERSON
+honest work	N	n.ACT
+Air Conditioning	N	n.ARTIFACT
+yellow curry	N	n.FOOD
+Ray 's pizza	N	n.GROUP
+Ray 's Pizza	N	n.GROUP
+week - end	N	n.TIME
+San Mateo Avenue	N	n.LOCATION
+San Francisco	N	n.LOCATION
+mani pedi	N	n.ACT
+prime rib	N	n.FOOD
+service office	N	n.GROUP
+take walk in	V.VID	v.social
+out front	PP	p.Locus
+hard drive	N	n.ARTIFACT
+auto repair	N	n.ACT
+Barry 's Auto Tech	N	n.GROUP
+Nova Scotia	N	n.LOCATION
+Sand Hill park	N	n.LOCATION
+thank - you	DISC	null
+West Valley	N	n.LOCATION
+samantha Fox	N	n.PERSON
+telephone number	N	n.COMMUNICATION
+mobile number	N	n.COMMUNICATION
+karol bagh	N	n.GROUP
+know what do	V.VID	v.cognition
+scent flower	N	n.ARTIFACT
+Farrell Electric	N	n.GROUP
+have a gift	V.VID	v.stative
+more often than not	DISC	null
+healthy dose	N	n.COGNITION
+spot on	ADJ	null
+keep come	V.VID	v.stative
+happy new year	DISC	null
+every one	PRON	null
+each other	PRON	null
+cookie cutter	N	n.COGNITION
+New Providence	N	n.LOCATION
+stick to	V.IAV	v.social
+Hop Hing	N	n.GROUP
+branch out	V.IAV	v.social
+Pad Thai	N	n.FOOD
+man 's and boy barber	N	n.GROUP
+lady room	N	n.GROUP
+over proofed	ADJ	null
+lack - luster	ADJ	null
+Compact 's	N	n.GROUP
+Corona dryer	N	n.ARTIFACT
+In and Out	N	n.GROUP
+locally own	ADJ	null
+bar and grill	N	n.GROUP
+barton car wash	N	n.GROUP
+pool cover	N	n.ARTIFACT
+go on and on	V.VID	v.communication
+in term of	P	p.Topic
+james bond	N	n.PERSON
+Morningside Road	N	n.LOCATION
+many thanks	N	n.COMMUNICATION
+MFJ Inc	N	n.GROUP
+back yard	N	n.LOCATION
+have complaint	V.LVC.full	v.communication
+walk away	V.VPC.full	v.social
+why in the hell	ADV	null
+behind the scene	PP	p.Characteristic
+bmw z3	N	n.ARTIFACT
+kelvin trimmers	N	n.GROUP
+hand on	ADJ	null
+sushi bar	N	n.GROUP
+high dollar	ADJ	null
+I move CA - Los Angeles Movers	N	n.GROUP
+Doctor Bogomilsky	N	n.PERSON
+Battery Park Pest	N	n.GROUP
+R&L Plumbing Services	N	n.GROUP
+the extra mile go	V.VID	v.social
+get work	V.LVC.cause	v.change
+be first call	V.VID	v.stative
+keep it up	DISC	null
+Shree Ghatkopar Bhatia Mitra Mandal	N	n.GROUP
+infra structure	N	n.COGNITION
+Kal Tire	N	n.GROUP
+all round	ADV	null
+Mrs. Tolchin	N	n.PERSON
+a great deal	N	n.QUANTITY
+make for	V.IAV	v.stative
+Sam 's club	N	n.GROUP
+Ralph 's	N	n.GROUP
+Ralph 's Market	N	n.GROUP
+medical care	N	n.ACT
+urgent care	N	n.ACT
+the law office of Dale Gribow	N	n.GROUP
+Landscape by Hiro	N	n.GROUP
+get the job done	V.VID	v.change
+Mr. Pozza	N	n.PERSON
+green curry	N	n.FOOD
+red curry	N	n.FOOD
+Allentown Post Office	N	n.GROUP
+people watching	N	n.PERSON
+Noonan 's Liquor	N	n.GROUP
+deep tissue	N	n.BODY
+Bright Futures	N	n.GROUP
+Seth K	N	n.PERSON
+job do	N	n.ACT
+yet again	ADV	null
+time of year	N	n.TIME
+Inford Media	N	n.GROUP
+fun and game	N	n.COGNITION
+Dr. Deters	N	n.PERSON
+waiting room	N	n.LOCATION
+st. charles mall	N	n.GROUP
+get confused	V.VID	v.cognition
+ATLANTIC WIRELESS	N	n.GROUP
+well know	ADJ	null
+Family Bagels	N	n.GROUP
+Town Bagel	N	n.GROUP
+auto glass	N	n.ARTIFACT
+count on	V.IAV	v.cognition
+believe it or not	V.VID	v.cognition
+satellite tv	N	n.COMMUNICATION
+coffee store	N	n.GROUP
+American Express	N	n.GROUP
+dress maker	N	n.PERSON
+Mother Plucker	N	n.GROUP
+get unlock	V.VID	v.change
+Hop City	N	n.GROUP
+get chance	V.LVC.full	v.cognition
+german bedding	N	n.ARTIFACT
+Dr. Stiefvater	N	n.PERSON
+Bayside Chiropractic	N	n.GROUP
+Staten Island Computers	N	n.GROUP
+computer people	N	n.PERSON
+Qualitech Computers	N	n.GROUP
+pull tooth out	V.VID	v.contact
+Bay Ridge	N	n.LOCATION
+way to go	DISC	null
+Michelin star	N	n.COMMUNICATION
+price point	N	n.POSSESSION
+fry rice	N	n.FOOD
+East Bay	N	n.LOCATION
+DFW metro area	N	n.LOCATION
+fort Worth	N	n.LOCATION
+add on	V.VPC.semi	v.possession
+Dr. Rohatgi	N	n.PERSON
+old time	ADJ	null
+Dr. White	N	n.PERSON
+so - so	ADJ	null
+Gold Coast	N	n.LOCATION
+class act	N	n.COGNITION
+a arm and a leg	N	n.QUANTITY
+Steele Electric	N	n.GROUP
+in pain	PP	p.Manner
+step take	V.VID	v.motion
+off road	PP	p.Locus
+the Gables	N	n.LOCATION
+over cooked	ADJ	null
+Olive Garden	N	n.GROUP
+hair loss	N	n.STATE
+the better part of	N	n.QUANTITY
+be there / do that	ADJ	null
+Gulf Coast Siding	N	n.GROUP
+walk through	V.VPC.full	v.social
+big buck	N	n.POSSESSION
+Sprecher 's	N	n.GROUP
+too much trouble	ADJ	null
+Sam Mones	N	n.PERSON
+World 's Finest Donair	N	n.GROUP
+thumb up	N	n.COMMUNICATION
+bon appetit	INTJ	null
+get along	V.IAV	v.social
+Garage Pros	N	n.GROUP
+American Pride Irrigation & Landscaping	N	n.GROUP
+hit or miss	ADJ	null
+Tire Gooroo	N	n.PERSON
+David Bundren	N	n.PERSON
+Tire GooRoo	N	n.PERSON
+sardine can	N	n.COGNITION
