@@ -21,7 +21,7 @@ from utils import one_hot_weight, read_founta, read_hateval, prediction_to_class
 def use_model(is_founta):
     try:
         physical_devices = tf.config.experimental.list_physical_devices('GPU')
-        tf.config.experimental.set_memory_growth(physical_devices[0], True)
+        tf.config.experimental.set_memory_growth(physical_devices[0:1], True)
     except:
         pass
 
@@ -49,7 +49,7 @@ def use_mwe_embeddings_w2v(mwe_categories_features, mwe_embeddings_features, sen
         pass
     inputs = [Input(512, name='use_embed'), # USE features
               Input(shape=(sentence_len,), name=mwe_categories_features["name"]), # MWE categories features
-              Input(shape=(15,), name=mwe_embeddings_features["name"])] # MWE embeddings features
+              Input(shape=(50,), name=mwe_embeddings_features["name"])] # MWE embeddings features
 
     # USE branch
     dense_use = Dense(256, activation='relu')(inputs[0])
@@ -98,12 +98,12 @@ def use_mwe_embeddings_w2v(mwe_categories_features, mwe_embeddings_features, sen
 def use_mwe_embeddings_bert_lstm(mwe_categories_features, sentence_len, is_founta):
     try:
         physical_devices = tf.config.experimental.list_physical_devices('GPU')
-        tf.config.experimental.set_memory_growth(physical_devices[0], True)
+        tf.config.experimental.set_memory_growth(physical_devices[0:1], True)
     except:
         pass
     inputs = [Input(512, name='use_embed'),
               Input(shape=(sentence_len,), name=mwe_categories_features["name"]),
-              Input(shape=(15, 768), name='bert_mwe_embeddings')]
+              Input(shape=(50, 768), name='bert_mwe_embeddings')]
 
     # USE branch
     dense_use = Dense(256, activation='relu')(inputs[0])
@@ -225,8 +225,8 @@ if __name__ == '__main__':
         X_train = load_embeddings(args.train.split(".csv")[0] + ".usembed", size=512)
         X_dev = load_embeddings(args.dev.split(".csv")[0] + ".usembed", size=512)
 
-        X_TRAIN = [X_train]
-        X_DEV = [X_dev]
+        X_TRAIN = [np.asarray(X_train).astype(np.float32)]
+        X_DEV = [np.asarray(X_dev).astype(np.float32)]
         features_spec = []
         features_input = []
         if args.mwe_features:
@@ -319,14 +319,14 @@ if __name__ == '__main__':
             X_DEV = X_dev
 
         from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping
-        from keras.utils import np_utils
+        from tensorflow.keras.utils import to_categorical
 
         if args.founta:
-            Y_train = np_utils.to_categorical(Y_train)
-            Y_dev = np_utils.to_categorical(Y_dev)
+            Y_train = to_categorical(Y_train)
+            Y_dev = to_categorical(Y_dev)
         else:
-            Y_train = np.array(Y_train)
-            Y_dev = np.array(Y_dev)
+            Y_train = np.asarray(Y_train).astype(np.int)
+            Y_dev = np.asarray(Y_dev).astype(np.int)
         print("Training...")
         checkpoint = ModelCheckpoint(args.model + '.h5', monitor='val_loss', verbose=1,
                                      save_best_only=True,
@@ -351,7 +351,7 @@ if __name__ == '__main__':
         print("Load model and vocab")
         try:
             physical_devices = tf.config.experimental.list_physical_devices('GPU')
-            tf.config.experimental.set_memory_growth(physical_devices[0], True)
+            tf.config.experimental.set_memory_growth(physical_devices[0:1], True)
         except:
             pass
         model = load_model(args.model + ".h5")
