@@ -344,7 +344,7 @@ def load_vector(path, size):
     return np.array(vectors)
 
 
-def annotated_mwe(path_lexicon, path_files=[],  discontinuity=False, is_founta=False):
+def annotated_mwe(path_lexicon, path_files=[],  discontinuity=False, is_founta=False, is_davidson=False):
     lexicon = read_lexicon(path_lexicon)
     vocab_mwe, vocab_mwe_strong = tokenize_label_mwe(lexicon)
     # Write vocab, vocab_strong
@@ -352,11 +352,14 @@ def annotated_mwe(path_lexicon, path_files=[],  discontinuity=False, is_founta=F
 
     from utils import read_hateval
     from utils import read_founta
+    from utils import read_davidson
 
     for path in path_files:
         # Load tweets
         if is_founta:
             tweets, labels, vocab = read_founta(path)
+        elif is_davidson:
+            tweets, labels, vocab = read_davidson(path)
         else:
             tweets, label, vocab = read_hateval(path)
         # Vectorize tweets
@@ -377,7 +380,7 @@ def annotated_mwe(path_lexicon, path_files=[],  discontinuity=False, is_founta=F
                      vector_strong_mwe_features)
 
 
-def annotated_only_mwe_features(path_lexicon, path_files, is_founta):
+def annotated_only_mwe_features(path_lexicon, path_files, is_founta, is_davidson):
     import csv
     lexicon = read_lexicon(path_lexicon)
     vocab_mwe, vocab_mwe_strong = tokenize_label_mwe(lexicon)
@@ -386,10 +389,13 @@ def annotated_only_mwe_features(path_lexicon, path_files, is_founta):
 
     from utils import read_hateval
     from utils import read_founta
+    from utils import read_davidson
     for path in path_files:
         # Load tweets
         if is_founta:
             tweets, labels, vocab = read_founta(path)
+        elif is_davidson:
+            tweets, labels, vocab = read_davidson(path)
         else:
             tweets, label, vocab = read_hateval(path)
         mwe_features = only_mwe_annotation(tweets=tweets, lexicon=lexicon)
@@ -485,6 +491,11 @@ if __name__ == '__main__':
                         help="""
                         If you are using Founta et al. (2018) corpus. 
                         """)
+    parser.add_argument("--davidson", dest="davidson",
+                        required=False, type=bool, nargs='?', const=True,
+                        help="""
+                        If you are using Founta et al. (2018) corpus. 
+                        """)
     parser.add_argument("--word_embeddings_feature", dest="word_embeddings_features",
                         required=False, type=bool, nargs='?', const=True,
                         help="""
@@ -494,6 +505,6 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if args.word_embeddings_features:
-        annotated_only_mwe_features(args.path_lexicon, args.path_files, args.founta)
+        annotated_only_mwe_features(args.path_lexicon, args.path_files, args.founta, args.davidson)
     else:
-        annotated_mwe(args.path_lexicon, args.path_files,  args.discontinuity, args.founta)
+        annotated_mwe(args.path_lexicon, args.path_files,  args.discontinuity, args.founta, args.davidson)

@@ -82,27 +82,41 @@ def load_all_embeddings_bert(bert_file):
 
 def write_mwe_features_bert_embeddings(path_file, bert_embeddings):
     import json
-    datas_embeddings = {}
-    for features in bert_embeddings:
-        feat = {}
-        for vector_mwe in features:
-            feat[len(feat)] = vector_mwe.tolist()
-        datas_embeddings[len(datas_embeddings)] = feat
-    with open(path_file, 'w') as file:
-        json.dump(datas_embeddings, file)
+    # datas_embeddings = {}
+    with open(path_file, "w") as file:
+        for features in bert_embeddings:
+            feat = {}
+            for vector_mwe in features:
+                feat[len(feat)] = vector_mwe.tolist()
+            json.dump(feat, file) # embeddings vectors line per line
+            file.write("\n")
+            # datas_embeddings[len(datas_embeddings)] = feat
+    # with open(path_file, 'w') as file:
+    #     json.dump(datas_embeddings, file)
 
 
 def load_mwe_features_bert_embeddings(path_file):
     import json
     datas_embeddings = []
     with open(path_file, 'r') as file:
-        file_embeddings = json.load(file)
-        for index_tweet, feat in file_embeddings.items():
+        for line in file:
+            json_line = json.loads(line)
             array_feat = []
-            for f, v in feat.items():
-                array_feat.append(np.array(v))
+            for idx, vector_mwe in json_line.items():
+                array_feat.append(np.array(vector_mwe))
             datas_embeddings.append(np.array(array_feat))
-    print(np.array(datas_embeddings).shape)
+    #     print("load_embeddings")
+    #     file_embeddings = json.load(file)
+    #     print('end')
+    #     for index_tweet, feat in file_embeddings.items():
+    #         array_feat = []
+    #         for f, v in feat.items():
+    #             array_feat.append(np.array(v))
+    #         if len(array_feat) != 50:
+    #             print(len(array_feat))
+    #             input()
+    #         datas_embeddings.append(np.array(array_feat))
+    # print(np.array(datas_embeddings).shape)
     return np.array(datas_embeddings)
 
 
