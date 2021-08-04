@@ -163,7 +163,25 @@ def write_prediction_hateval(path_file, prediction_file, prediction):
     assert (count_prediction == len(prediction))
 
 
-def prediction_to_class_softmax(prediction):
+def prediction_to_class_softmax_founta(prediction):
+    r"""
+    :param prediction: list of probabilities.
+    :return class_prediction: list of classes.
+    """
+    import numpy as np
+    class_prediction = []
+    for prob in prediction:
+        prob_max = np.argmax(prob)
+        if prob_max == 0:
+            class_prediction.append('normal')
+        if prob_max == 1:
+            class_prediction.append('abusive')
+        if prob_max == 2:
+            class_prediction.append('hateful')
+    return class_prediction
+
+
+def prediction_to_class_softmax_davidson(prediction):
     r"""
     :param prediction: list of probabilities.
     :return class_prediction: list of classes.
@@ -173,12 +191,6 @@ def prediction_to_class_softmax(prediction):
     for prob in prediction:
         prob_max = np.argmax(prob)
         class_prediction.append(prob_max)
-        #if prob_max == 0:
-        #    class_prediction.append('normal')
-        #if prob_max == 1:
-        #    class_prediction.append('abusive')
-        #if prob_max == 2:
-        #    class_prediction.append('hateful')
     return class_prediction
 
 

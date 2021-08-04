@@ -14,8 +14,9 @@ from tensorflow.keras.layers import Input, Embedding, Dense, Concatenate, Conv1D
 from tensorflow.keras.models import Model
 from tensorflow.keras.models import load_model
 
-from utils import one_hot_weight, read_founta, read_hateval, prediction_to_class_softmax, prediction_to_class, \
-    write_prediction_hateval, write_prediction_founta, plot_history_acc, plot_history_loss, read_davidson
+from utils import one_hot_weight, read_founta, read_hateval, prediction_to_class, \
+    write_prediction_hateval, write_prediction_founta, plot_history_acc, plot_history_loss, read_davidson, \
+    prediction_to_class_softmax_founta, prediction_to_class_softmax_davidson
 
 
 def use_model(is_founta, is_davidson):
@@ -41,7 +42,7 @@ def use_model(is_founta, is_davidson):
     return model
 
 
-def use_mwe_embeddings_w2v(mwe_categories_features, mwe_embeddings_features, sentence_len, is_founta, is_davidson):
+def use_mwecat_cnn_embeddings_w2v(mwe_categories_features, mwe_embeddings_features, sentence_len, length_w2v_embeddings, is_founta, is_davidson):
     try:
         physical_devices = tf.config.experimental.list_physical_devices('GPU')
         tf.config.experimental.set_memory_growth(physical_devices[0], True)
@@ -49,7 +50,7 @@ def use_mwe_embeddings_w2v(mwe_categories_features, mwe_embeddings_features, sen
         pass
     inputs = [Input(512, name='use_embed'), # USE features
               Input(shape=(sentence_len,), name=mwe_categories_features["name"]), # MWE categories features
-              Input(shape=(50,), name=mwe_embeddings_features["name"])] # MWE embeddings features
+              Input(shape=(length_w2v_embeddings,), name=mwe_embeddings_features["name"])] # MWE embeddings features
 
     # USE branch
     dense_use = Dense(256, activation='relu')(inputs[0])
@@ -95,7 +96,7 @@ def use_mwe_embeddings_w2v(mwe_categories_features, mwe_embeddings_features, sen
     return model
 
 
-def use_mwe_embeddings_bert_lstm(mwe_categories_features, sentence_len, is_founta, is_davidson):
+def use_mwecat_cnn_embeddings_bert_lstm(mwe_categories_features, sentence_len, length_bert_embeddings, is_founta, is_davidson):
     try:
         physical_devices = tf.config.experimental.list_physical_devices('GPU')
         tf.config.experimental.set_memory_growth(physical_devices[0], True)
@@ -103,7 +104,7 @@ def use_mwe_embeddings_bert_lstm(mwe_categories_features, sentence_len, is_fount
         pass
     inputs = [Input(512, name='use_embed'),
               Input(shape=(sentence_len,), name=mwe_categories_features["name"]),
-              Input(shape=(50, 768), name='bert_mwe_embeddings')]
+              Input(shape=(length_bert_embeddings, 768), name='bert_mwe_embeddings')]
 
     # USE branch
     dense_use = Dense(256, activation='relu')(inputs[0])
@@ -115,15 +116,57 @@ def use_mwe_embeddings_bert_lstm(mwe_categories_features, sentence_len, is_fount
                                    embeddings_initializer=mwe_categories_features['initializer'],
                                    trainable=mwe_categories_features['trainable'], mask_zero=mwe_categories_features['mask_zero'])(
         inputs[1])
-    #cnn_one_hot = Conv1D(32, 3, activation='relu')(embeddings_one_hot)
-    #cnn_one_hot = MaxPooling1D()(cnn_one_hot)
-    #cnn_one_hot = Conv1D(16, 3, activation='relu')(cnn_one_hot)
-    #cnn_one_hot = MaxPooling1D()(cnn_one_hot)
-    #cnn_one_hot = Conv1D(8, 3, activation='relu')(cnn_one_hot)
-    #cnn_one_hot = MaxPooling1D()(cnn_one_hot)
-    #output_cnn_one_hot = Flatten()(cnn_one_hot)
-    lstm_one_hot = LSTM(128, return_sequences=False)(embeddings_one_hot)
+    cnn_one_hot = Conv1D(32, 3, activation='relu')(embeddings_one_hot)
+    cnn_one_hot = MaxPooling1D()(cnn_one_hot)
+    cnn_one_hot = Conv1D(16, 3, activation='relu')(cnn_one_hot)
+    cnn_one_hot = MaxPooling1D()(cnn_one_hot)
+    cnn_one_hot = Conv1D(8, 3, activation='relu')(cnn_one_hot)
+    cnn_one_hot = MaxPooling1D()(cnn_one_hot)
+    output_cnn_one_hot = Flatten()(cnn_one_hot)
+    #lstm_one_hot = LSTM(128, return_sequences=False)(embeddings_one_hot)
 
+
+    # MWE embeddings branch
+    lstm_bert = LSTM(192)(inputs[-1])
+
+    # Concatenation
+    concat = Concatenate()([dense_use, output_cnn_one_hot, lstm_bert])
+    dense = Dense(256, activation="relu")(concat)
+    if is_founta or is_davidson:
+        output = Dense(3, activation='softmax')(dense)
+    else:
+        output = Dense(1, activation='sigmoid')(dense)
+    model = Model(inputs=inputs, outputs=output)
+    if is_founta or is_davidson:
+        model.compile(loss='categorical_crossentropy', optimizer="Adam", metrics=['accuracy'])
+    else:
+        model.compile(loss='binary_crossentropy', optimizer="sgd", metrics=['accuracy'])
+    model.summary()
+    return model
+
+
+def use_mwecat_lstm_embeddings_bert_lstm(mwe_categories_features, sentence_len, length_bert_embeddings, is_founta, is_davidson):
+    try:
+        physical_devices = tf.config.experimental.list_physical_devices('GPU')
+        tf.config.experimental.set_memory_growth(physical_devices[0], True)
+    except:
+        pass
+    inputs = [Input(512, name='use_embed'),
+              Input(shape=(sentence_len,), name=mwe_categories_features["name"]),
+              Input(shape=(length_bert_embeddings, 768), name='bert_mwe_embeddings')]
+
+    # USE branch
+    dense_use = Dense(256, activation='relu')(inputs[0])
+
+    # MWE categories branch
+    embeddings_one_hot = Embedding(input_dim=mwe_categories_features['input_dim'], output_dim=mwe_categories_features['output_dim'],
+                                   input_length=sentence_len,
+                                   weights=[mwe_categories_features['weights']],
+                                   embeddings_initializer=mwe_categories_features['initializer'],
+                                   trainable=mwe_categories_features['trainable'], mask_zero=mwe_categories_features['mask_zero'])(
+        inputs[1])
+
+    lstm_one_hot = LSTM(128, return_sequences=False)(embeddings_one_hot)
 
     # MWE embeddings branch
     lstm_bert = LSTM(192)(inputs[-1])
@@ -185,6 +228,11 @@ if __name__ == '__main__':
                              Take in argument the extension of train/dev/test for bert embeddings.
                              Refer to --help to see how argument used.
                              """)
+    parser.add_argument("--len_embeddings", dest="len_embeddings_bert", type=int, required=False, default=15,
+                        help="""Option to set length of local multi-word expressions features with bert embeddings.
+                             Default is set to 15.
+                             Refer to --help to see how argument used.
+                             """)
     parser.add_argument("--founta", dest="founta", type=bool, required=False, nargs='?',
                         const=True,
                         help="""Option to use founta dataset.
@@ -198,6 +246,11 @@ if __name__ == '__main__':
     parser.add_argument("--mwe_features", dest="mwe_features", type=bool, required=False, nargs='?',
                         const=True,
                         help="""Option to use mwe features one_hot/embeddings.
+                             Refer to --help to see how argument used.
+                             """)
+    parser.add_argument("--mwe_cat_lstm", dest="mwe_cat_lstm", type=bool, required=False, nargs='?',
+                        const=True,
+                        help="""Option to use lstm layer instead of CNN layer for mwe cat features.
                              Refer to --help to see how argument used.
                              """)
     parser.add_argument("--max_sentence_length", dest="max_sentence_length", type=int, required=False, default=280,
@@ -227,7 +280,7 @@ if __name__ == '__main__':
         print("Load dev file")
         if args.founta:
             X_dev_no_tokenize, Y_dev, vocab_dev = read_founta(args.dev)
-        if args.davidson:
+        elif args.davidson:
             X_dev_no_tokenize, Y_dev, vocab_dev = read_davidson(args.dev)
         else:
             X_dev_no_tokenize, Y_dev, vocab_dev = read_hateval(args.dev)
@@ -298,10 +351,10 @@ if __name__ == '__main__':
                 print(len(vocab_mwe), len(matrix))
                 train_mwe_features = mwe_features.read_mwes(
                     args.train.split(".csv")[0] + '.mwe.' + args.mwe_embeddings.split("/")[-1], vocab_mwe,
-                    size=15)
+                    size=args.len_embeddings)
                 dev_mwe_features = mwe_features.read_mwes(
                     args.dev.split(".csv")[0] + '.mwe.' + args.mwe_embeddings.split("/")[-1], vocab_mwe,
-                    size=15)
+                    size=args.len_embeddings)
                 X_TRAIN.append(train_mwe_features)
                 X_DEV.append(dev_mwe_features)
 
@@ -318,9 +371,12 @@ if __name__ == '__main__':
 
         # Models
         if args.mwe_embeddings_bert:
-            model = use_mwe_embeddings_bert_lstm(mwe_categories_spec, args.max_sentence_length, args.founta, args.davidson)
+            if args.mwe_cat_lstm:
+                model = use_mwecat_lstm_embeddings_bert_lstm(mwe_categories_spec, args.max_sentence_length, args.len_embeddings, args.founta, args.davidson)
+            else:
+                model = use_mwecat_cnn_embeddings_bert_lstm(mwe_categories_spec, args.max_sentence_length, args.len_embeddings, args.founta, args.davidson)
         elif args.mwe_embeddings:
-            model = use_mwe_embeddings_w2v(mwe_categories_spec, mwe_embeddings_spec, args.max_sentence_length, args.founta)
+            model = use_mwecat_cnn_embeddings_w2v(mwe_categories_spec, mwe_embeddings_spec, args.max_sentence_length, args.len_embeddings, args.founta, args.davidson)
         else:
             model = use_model(args.founta, args.davidson)
 
@@ -357,7 +413,7 @@ if __name__ == '__main__':
         print("Load test file")
         if args.founta:
             X_test_no_tokenize, Y_test, vocab_test = read_founta(args.test)
-        if args.davidson:
+        elif args.davidson:
             X_test_no_tokenize, Y_test, vocab_test = read_davidson(args.test)
         else:
             X_test_no_tokenize, Y_test, vocab_test = read_hateval(args.test)
@@ -405,7 +461,9 @@ if __name__ == '__main__':
         if not args.mwe_features:
             X_TEST = X_test
         Y_pred = model.predict(X_TEST)
-        if args.founta or args.davidson:
-            write_prediction_founta(args.test, args.prediction, prediction_to_class_softmax(Y_pred))
+        if args.founta:
+            write_prediction_founta(args.test, args.prediction, prediction_to_class_softmax_founta(Y_pred))
+        elif args.davidson:
+            write_prediction_founta(args.test, args.prediction, prediction_to_class_softmax_davidson(Y_pred))
         else:
             write_prediction_hateval(args.test, args.prediction, prediction_to_class(Y_pred))
