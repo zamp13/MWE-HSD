@@ -29,6 +29,28 @@ def read_founta(path_file):
     return tweets, targets_tokenize, vocab
 
 
+def read_davidson(path_file):
+    reader = csv.reader(open(path_file, 'r', encoding='UTF-8'), delimiter='\t')
+    TWEET = 0
+    TARGET = 1
+    tweets = []
+    targets = []
+    for row in reader:
+        if row[TARGET] != 'spam':
+            tweets.append(row[TWEET])
+            targets.append(int(row[TARGET]))
+    vocab = {
+        "<pad>": 0,
+        "<unk>": 1
+    }
+    for tweet in tweets:
+        for word in tweet.split():
+            vocab[word] = len(vocab)
+
+    return tweets, targets, vocab
+
+
+
 def read_hateval(path_file):
     r"""
 
@@ -150,12 +172,13 @@ def prediction_to_class_softmax(prediction):
     class_prediction = []
     for prob in prediction:
         prob_max = np.argmax(prob)
-        if prob_max == 0:
-            class_prediction.append('normal')
-        if prob_max == 1:
-            class_prediction.append('abusive')
-        if prob_max == 2:
-            class_prediction.append('hateful')
+        class_prediction.append(prob_max)
+        #if prob_max == 0:
+        #    class_prediction.append('normal')
+        #if prob_max == 1:
+        #    class_prediction.append('abusive')
+        #if prob_max == 2:
+        #    class_prediction.append('hateful')
     return class_prediction
 
 
